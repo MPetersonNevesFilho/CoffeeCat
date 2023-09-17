@@ -1,3 +1,6 @@
+.navbar_background {
+	background-color: #000000 !important;
+}
 .menubar_logo_wrapper {
 	border-radius: var(--border-radius-default);
 	margin: auto;
@@ -17,4 +20,6 @@
 	color: var(--white);
 	padding: 1rem;
 	margin: 0 1rem;
+	font-size: 2rem;
+	font-weight: bolder;
 }

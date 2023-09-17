@@ -69,7 +69,7 @@ export default function PickupPoints() {
 					<Dropdown.Item eventKey="Phone">Phone</Dropdown.Item>
 				</DropdownButton>
 				<Button className={styles.pickupPoints_search_button} variant="secondary" id="button-addon2">
-					<MagnifyingGlass size={24} /> Search
+					<MagnifyingGlass size={32} /> Search
 				</Button>
 			</div>
 
