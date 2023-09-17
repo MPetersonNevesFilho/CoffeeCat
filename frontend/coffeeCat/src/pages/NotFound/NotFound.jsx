@@ -1,6 +1,7 @@
 import { Form, Button } from "react-bootstrap";
 import styles from "./NotFound.module.css";
 import logoPng from "../../assets/coffeeCat.png";
+import { useNavigate } from "react-router-dom";
 
 export default function NotFound() {
 	const navigate = useNavigate();
@@ -22,6 +23,7 @@ export default function NotFound() {
 					className={styles.login_form_login_button}
 						variant="secondary"
 						type="submit"
+						onClick={() => navigate("/home")}
 					>
 						Voltar
 					</Button>

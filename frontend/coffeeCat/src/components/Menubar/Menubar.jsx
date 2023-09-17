@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 export default function Menubar() {
 	const navigate = useNavigate();
 	return (
-		<Navbar bg="dark" expand="md">
+		<Navbar className={styles.navbar_background} bg="#00000" expand="md">
 			<Container>
 				<Navbar.Brand href="/home">
 					<div className={styles.menubar_logo_wrapper}>
@@ -22,18 +22,18 @@ export default function Menubar() {
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
-					<Nav className="me-auto">
+					<Nav className="justify-content-end" style={{ width: "100%" }}>
 						<Nav.Link onClick={() => navigate("/home")} className={styles.links}>
-							<HouseSimple size={24} /> Home
+							<HouseSimple size={32} /> Home
 						</Nav.Link>
 						<Nav.Link onClick={() => navigate("/pickup-points")} className={styles.links}>
-							<Buildings size={24} /> Pickup Points
+							<Buildings size={32} /> Pickup Points
 						</Nav.Link>
 						<Nav.Link onClick={() => navigate("/orders")} className={styles.links}>
-							<Package size={24} /> My Orders
+							<Package size={32} /> My Orders
 						</Nav.Link>
 						<Nav.Link onClick={() => navigate("/cart")} className={styles.links}>
-							<ShoppingCartSimple size={24} /> Cart
+							<ShoppingCartSimple size={32} /> Cart
 						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
