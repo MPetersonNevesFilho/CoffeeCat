@@ -26,7 +26,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
-          <Route path="/pickupPoints" element={<PickupPoints />} />
+          <Route path="/pickup-points" element={<PickupPoints />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/cart" element={<Cart />} />
         </Route>

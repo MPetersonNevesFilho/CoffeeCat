@@ -23,3 +23,7 @@
 	font-size: 2rem;
 	font-weight: bolder;
 }
+
+.links:hover{
+	color: #ffa0ac !important;
+}

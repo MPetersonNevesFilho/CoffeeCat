@@ -31,6 +31,7 @@ export default function PickupPoints() {
 			const response = await axios.get(GET_POINTS);
 			console.log("getPickupPoints -> response: ", response);
 			if (response.status === 200) {
+				console.log("getPickupPoints -> response.data: ", response.data)
 				setPickupPoints(response.data);
 			}
 		} catch (error) {
@@ -93,7 +94,7 @@ export default function PickupPoints() {
 								<tr key={key}>
 									<td>{user.name}</td>
 									<td>{user.address}</td>
-									<td>{user.address}</td>
+									<td>{user.orders? user.orders.map((order, key) => order.id + "; ") : " - "}</td>
 									{/* <td className={styles.pickupPoints_table_td_actions}>
 										<a onClick={(e) => handleEdit(e, user)} className="">
 											Edit
