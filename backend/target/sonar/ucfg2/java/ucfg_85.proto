@@ -1,0 +1,86 @@
+
+`tqs.coffeeCat.controller.StoreController#getAllOrders()Lorg/springframework/http/ResponseEntity;†
+|/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/controller/StoreController.java{ {(&"3*ó
+2
+ (¦
+£
+
+ (#-
+%3'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*6
+
+__unknown_file (
+
+ordersjava.util.List";
+ ($/
+-
+%3'org.springframework.http.ResponseEntity*Ã
+3| |(#™
+–
+| |(#(
+%0"tqs.coffeeCat.service.OrderService"__id*Z
+
+__unknown_file (>*<*
+(tqs.coffeeCat.controller.StoreController"
+orderService²¯
+| |(,
+%1java.util.List";tqs.coffeeCat.service.OrderService#getAll()Ljava/util/List;*F
+
+__unknown_file (*
+(
+%0"tqs.coffeeCat.service.OrderService2getAll()`
+^
+| |(-
+ordersjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.Listyw
+~ ~(
+%2boolean"java.util.List#isEmpty()Z*6
+
+__unknown_file (
+
+ordersjava.util.List2	isEmpty()*
+2
+1*‡
+1
+
+ (c
+a
+
+  (4)
+%4#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""í
+ê
+
+
+ (59
+%53org.springframework.http.ResponseEntity$BodyBuilder"Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*G
+
+__unknown_file (+
+)
+%4#org.springframework.http.HttpStatusáÞ
+
+
+ (U-
+%6'org.springframework.http.ResponseEntity"uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*W
+
+__unknown_file (;
+9
+%53org.springframework.http.ResponseEntity$BodyBuilder*7
+
+__unknown_file (
+Error: No orders found!2body(Ljava/lang/Object;)"=
+
+ (V/
+-
+%6'org.springframework.http.ResponseEntityB,*
+(tqs.coffeeCat.controller.StoreControllerH

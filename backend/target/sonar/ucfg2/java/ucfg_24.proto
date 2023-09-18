@@ -1,0 +1,27 @@
+
+Utqs.coffeeCat.service.OrderService#findByCostumer(Ljava/lang/String;)Ljava/util/List;Ä
+v/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/service/OrderService.java (""1*Å
+1	 (ú
+ô
+	 (.
+%0(tqs.coffeeCat.repository.OrderRepository"__id*W
+
+__unknown_file (;*9$
+"tqs.coffeeCat.service.OrderService"
+orderRepositoryÆ´
+	 (1
+%1java.util.List"[tqs.coffeeCat.repository.OrderRepository#findByCostumer(Ljava/lang/String;)Ljava/util/List;*L
+
+__unknown_file (0
+.
+%0(tqs.coffeeCat.repository.OrderRepository*:
+
+__unknown_file (
+
+customerjava.lang.String2"findByCostumer(Ljava/lang/String;)""
+ (2
+
+%1java.util.List:(
+# (2
+customerjava.lang.StringB&$
+"tqs.coffeeCat.service.OrderServiceH

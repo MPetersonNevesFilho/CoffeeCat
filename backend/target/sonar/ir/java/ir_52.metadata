@@ -1,0 +1,3 @@
+tqs.coffeeCat.service.UserService#existsByUsername(Ljava/lang/String;)Z
+==
+existsByUsername tqs.coffeeCat.repository.UserRepository#existsByUsername(Ljava/lang/String;)Ljava/lang/Boolean;

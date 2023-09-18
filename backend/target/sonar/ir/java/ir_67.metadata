@@ -1,0 +1,6 @@
+tqs.coffeeCat.model.Product#toString()Ljava/lang/String;
+==
+getPrice tqs.coffeeCat.model.Product#getPrice()Ljava/lang/Double;
+getImage_url tqs.coffeeCat.model.Product#getImage_url()Ljava/lang/String;
+getName tqs.coffeeCat.model.Product#getName()Ljava/lang/String;
+getDescription tqs.coffeeCat.model.Product#getDescription()Ljava/lang/String;

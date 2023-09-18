@@ -1,0 +1,10 @@
+tqs.coffeeCat.service.AuthService#registerUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ltqs/coffeeCat/model/User;
+tqs.coffeeCat.model.User#instance-init#
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+tqs.coffeeCat.model.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+java.lang.RuntimeException#instance-init#
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;
+findByUsername tqs.coffeeCat.repository.UserRepository#findByUsername(Ljava/lang/String;)Ltqs/coffeeCat/model/User;
+findByEmail tqs.coffeeCat.repository.UserRepository#findByEmail(Ljava/lang/String;)Ltqs/coffeeCat/model/User;
+encode org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder#encode(Ljava/lang/CharSequence;)Ljava/lang/String;

@@ -1,0 +1,16 @@
+
+Jtqs.coffeeCat.payload.request.LoginRequest#getUsername()Ljava/lang/String;ˆ
+~/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/payload/request/LoginRequest.java ("1*»
+1	 (…
+‚
+	 (
+%0java.lang.String"__id*X
+
+__unknown_file (<*:,
+*tqs.coffeeCat.payload.request.LoginRequest"
+
+username"$
+ (
+
+%0java.lang.StringB.,
+*tqs.coffeeCat.payload.request.LoginRequestH

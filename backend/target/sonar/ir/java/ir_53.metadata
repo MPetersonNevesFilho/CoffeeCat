@@ -1,0 +1,3 @@
+tqs.coffeeCat.service.UserService#findByEmail(Ljava/lang/String;)Ltqs/coffeeCat/model/User;
+==
+findByEmail tqs.coffeeCat.repository.UserRepository#findByEmail(Ljava/lang/String;)Ltqs/coffeeCat/model/User;

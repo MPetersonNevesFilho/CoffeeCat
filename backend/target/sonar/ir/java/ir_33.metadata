@@ -1,0 +1,3 @@
+tqs.coffeeCat.service.OrderService#findByCostumer(Ljava/lang/String;)Ljava/util/List;
+==
+findByCostumer tqs.coffeeCat.repository.OrderRepository#findByCostumer(Ljava/lang/String;)Ljava/util/List;

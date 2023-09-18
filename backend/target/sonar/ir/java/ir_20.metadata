@@ -1,0 +1,5 @@
+tqs.coffeeCat.service.AuthService#loginUser(Ljava/lang/String;Ljava/lang/String;)Ltqs/coffeeCat/model/User;
+==
+getPassword tqs.coffeeCat.model.User#getPassword()Ljava/lang/String;
+matches org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder#matches(Ljava/lang/CharSequence;Ljava/lang/String;)Z
+findByUsername tqs.coffeeCat.repository.UserRepository#findByUsername(Ljava/lang/String;)Ltqs/coffeeCat/model/User;

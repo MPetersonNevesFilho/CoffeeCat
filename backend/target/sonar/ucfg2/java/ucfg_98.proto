@@ -1,0 +1,26 @@
+
+Jtqs.coffeeCat.service.PickupPointService#existsByName(Ljava/lang/String;)ZÜ
+|/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/service/PickupPointService.java ("1*ç
+1	 (Æ
+´
+	 (4
+%0.tqs.coffeeCat.repository.PickupPointRepository"__id*c
+
+__unknown_file (G*E*
+(tqs.coffeeCat.service.PickupPointService"
+pickupPointRepository∏µ
+	 (1
+%1java.lang.Boolean"btqs.coffeeCat.repository.PickupPointRepository#existsByName(Ljava/lang/String;)Ljava/lang/Boolean;*R
+
+__unknown_file (6
+4
+%0.tqs.coffeeCat.repository.PickupPointRepository*6
+
+__unknown_file (
+
+namejava.lang.String2 existsByName(Ljava/lang/String;)"
+ (2
+"":$
+ ((
+namejava.lang.StringB,*
+(tqs.coffeeCat.service.PickupPointServiceHP

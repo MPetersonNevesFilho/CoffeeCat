@@ -1,0 +1,26 @@
+
+Dtqs.coffeeCat.service.UserService#existsByEmail(Ljava/lang/String;)Z
+u/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/service/UserService.java ("1*í
+1	 (™
+–
+	 (-
+%0'tqs.coffeeCat.repository.UserRepository"__id*U
+
+__unknown_file (9*7#
+!tqs.coffeeCat.service.UserService"
+userRepository­ª
+	 (,
+%1java.lang.Boolean"\tqs.coffeeCat.repository.UserRepository#existsByEmail(Ljava/lang/String;)Ljava/lang/Boolean;*K
+
+__unknown_file (/
+-
+%0'tqs.coffeeCat.repository.UserRepository*7
+
+__unknown_file (
+
+emailjava.lang.String2!existsByEmail(Ljava/lang/String;)"
+ (-
+"":%
+ (*
+emailjava.lang.StringB%#
+!tqs.coffeeCat.service.UserServiceHP

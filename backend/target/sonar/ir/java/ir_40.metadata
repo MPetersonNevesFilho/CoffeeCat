@@ -1,0 +1,3 @@
+tqs.coffeeCat.service.ProductService#getProductByName(Ljava/lang/String;)Ltqs/coffeeCat/model/Product;
+==
+findByName tqs.coffeeCat.repository.ProductRepository#findByName(Ljava/lang/String;)Ltqs/coffeeCat/model/Product;

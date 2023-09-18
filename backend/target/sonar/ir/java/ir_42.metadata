@@ -1,0 +1,3 @@
+tqs.coffeeCat.service.ProductService#getAll()Ljava/util/List;
+==
+findAll tqs.coffeeCat.repository.ProductRepository#findAll()Ljava/util/List;

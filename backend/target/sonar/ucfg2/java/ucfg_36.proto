@@ -1,0 +1,27 @@
+
+[tqs.coffeeCat.service.UserService#findByEmail(Ljava/lang/String;)Ltqs/coffeeCat/model/User;
+u/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/service/UserService.java ("1*‘
+1	 (™
+–
+	 (-
+%0'tqs.coffeeCat.repository.UserRepository"__id*U
+
+__unknown_file (9*7#
+!tqs.coffeeCat.service.UserService"
+userRepository·´
+	 (*
+%1tqs.coffeeCat.model.User"atqs.coffeeCat.repository.UserRepository#findByEmail(Ljava/lang/String;)Ltqs/coffeeCat/model/User;*K
+
+__unknown_file (/
+-
+%0'tqs.coffeeCat.repository.UserRepository*7
+
+__unknown_file (
+
+emailjava.lang.String2findByEmail(Ljava/lang/String;)",
+ (+ 
+
+%1tqs.coffeeCat.model.User:%
+ (%
+emailjava.lang.StringB%#
+!tqs.coffeeCat.service.UserServiceH

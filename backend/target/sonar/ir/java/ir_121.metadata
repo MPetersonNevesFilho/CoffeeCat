@@ -1,0 +1,5 @@
+tqs.coffeeCat.model.PickupPoint#toString()Ljava/lang/String;
+==
+getAddress tqs.coffeeCat.model.PickupPoint#getAddress()Ljava/lang/String;
+getName tqs.coffeeCat.model.PickupPoint#getName()Ljava/lang/String;
+getOrders tqs.coffeeCat.model.PickupPoint#getOrders()Ljava/util/List;

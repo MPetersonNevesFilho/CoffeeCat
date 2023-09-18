@@ -1,0 +1,136 @@
+
+8tqs.coffeeCat.model.Product#toString()Ljava/lang/String;y
+o/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/model/Product.java? ?("1*µ
+1@	 @(Z
+X
+@	 A(
+%0java.lang.String"__concat*
+@	 @(
+{*
+A A(	
+ name='¦£
+A A(
+%1java.lang.String"7tqs.coffeeCat.model.Product#getName()Ljava/lang/String;*;
+
+__unknown_file (
+tqs.coffeeCat.model.Product2	getName()z
+x
+@	 A(
+%2java.lang.String"__concat*$
+@	 A(
+
+%0java.lang.String*$
+A A(
+
+%1java.lang.Stringg
+e
+@	 A(
+%3java.lang.String"__concat*$
+@	 A(
+
+%2java.lang.String*
+A A(
+'u
+s
+@	 A(3
+%4java.lang.String"__concat*$
+@	 A(
+
+%3java.lang.String*
+A" A(3
+, description='´±
+A6 A(F
+%5java.lang.String">tqs.coffeeCat.model.Product#getDescription()Ljava/lang/String;*;
+
+__unknown_file (
+tqs.coffeeCat.model.Product2getDescription()z
+x
+@	 A(F
+%6java.lang.String"__concat*$
+@	 A(3
+
+%4java.lang.String*$
+A6 A(F
+
+%5java.lang.Stringg
+e
+@	 A(L
+%7java.lang.String"__concat*$
+@	 A(F
+
+%6java.lang.String*
+AI A(L
+'o
+m
+@	 B(
+%8java.lang.String"__concat*$
+@	 A(L
+
+%7java.lang.String*
+B B(
+	, price='¨¥
+B B(
+%9java.lang.Double"8tqs.coffeeCat.model.Product#getPrice()Ljava/lang/Double;*;
+
+__unknown_file (
+tqs.coffeeCat.model.Product2
+getPrice(){
+y
+@	 B(
+%10java.lang.String"__concat*$
+@	 B(
+
+%8java.lang.String*$
+B B(
+
+%9java.lang.Doublei
+g
+@	 B("
+%11java.lang.String"__concat*%
+@	 B(
+
+%10java.lang.String*
+B B("
+'u
+s
+@	 B(4
+%12java.lang.String"__concat*%
+@	 B("
+
+%11java.lang.String*
+B% B(4
+, image_url='±®
+B7 B(E
+%13java.lang.String"<tqs.coffeeCat.model.Product#getImage_url()Ljava/lang/String;*;
+
+__unknown_file (
+tqs.coffeeCat.model.Product2getImage_url()}
+{
+@	 B(E
+%14java.lang.String"__concat*%
+@	 B(4
+
+%12java.lang.String*%
+B7 B(E
+
+%13java.lang.Stringi
+g
+@	 B(K
+%15java.lang.String"__concat*%
+@	 B(E
+
+%14java.lang.String*
+BH B(K
+'i
+g
+@	 C(
+%16java.lang.String"__concat*%
+@	 B(K
+
+%15java.lang.String*
+C C(
+}"%
+@ C(
+
+%16java.lang.StringB
+tqs.coffeeCat.model.ProductH

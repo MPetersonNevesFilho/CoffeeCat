@@ -1,0 +1,3 @@
+tqs.coffeeCat.service.OrderService#deleteOrder(Ljava/lang/String;)V
+==
+deleteById org.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V

@@ -1,0 +1,5 @@
+tqs.coffeeCat.service.PickupPointService#addPickupPoint(Ltqs/coffeeCat/model/PickupPoint;)Ltqs/coffeeCat/model/PickupPoint;
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;
+getName tqs.coffeeCat.model.PickupPoint#getName()Ljava/lang/String;
+existsByName tqs.coffeeCat.repository.PickupPointRepository#existsByName(Ljava/lang/String;)Ljava/lang/Boolean;

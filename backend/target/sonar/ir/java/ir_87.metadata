@@ -1,0 +1,8 @@
+tqs.coffeeCat.model.Order#toString()Ljava/lang/String;
+==
+getDateDelivery tqs.coffeeCat.model.Order#getDateDelivery()Ljava/util/Date;
+getStatus tqs.coffeeCat.model.Order#getStatus()Ljava/lang/String;
+getPickupPoint tqs.coffeeCat.model.Order#getPickupPoint()Ljava/lang/String;
+getDateCreated tqs.coffeeCat.model.Order#getDateCreated()Ljava/util/Date;
+getCostumer tqs.coffeeCat.model.Order#getCostumer()Ljava/lang/String;
+getProducts tqs.coffeeCat.model.Order#getProducts()Ljava/util/List;

@@ -1,0 +1,3 @@
+tqs.coffeeCat.service.ProductService#existsProductByName(Ljava/lang/String;)Ljava/lang/Boolean;
+==
+existsByName tqs.coffeeCat.repository.ProductRepository#existsByName(Ljava/lang/String;)Ljava/lang/Boolean;

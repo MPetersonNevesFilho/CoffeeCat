@@ -1,0 +1,17 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+coffeeCat,tqs.coffeeCat.model,Order,46,62,0,0,17,26,9,10,9,10
+coffeeCat,tqs.coffeeCat.model,PickupPoint,38,19,0,0,17,8,7,4,7,4
+coffeeCat,tqs.coffeeCat.model,Product,39,18,0,0,16,7,9,2,9,2
+coffeeCat,tqs.coffeeCat.model,User,35,31,0,0,14,13,5,7,5,7
+coffeeCat,tqs.coffeeCat,CoffeeCatApplication,12,0,0,0,4,0,3,0,3,0
+coffeeCat,tqs.coffeeCat.controller,StoreController,5,138,1,17,1,36,1,16,0,8
+coffeeCat,tqs.coffeeCat.controller,AuthController,109,0,0,0,26,0,3,0,3,0
+coffeeCat,tqs.coffeeCat.payload.request,RegisterRequest,21,3,0,0,9,2,6,1,6,1
+coffeeCat,tqs.coffeeCat.payload.request,LoginRequest,14,9,0,0,6,4,4,1,4,1
+coffeeCat,tqs.coffeeCat.service,OrderService,0,31,0,0,0,8,0,5,0,5
+coffeeCat,tqs.coffeeCat.service,UserService,0,31,0,0,0,6,0,6,0,6
+coffeeCat,tqs.coffeeCat.service,AuthService,0,69,0,8,0,15,0,7,0,3
+coffeeCat,tqs.coffeeCat.service,ProductService,5,40,0,2,1,9,1,7,1,6
+coffeeCat,tqs.coffeeCat.service,PickupPointService,0,65,0,2,0,15,0,9,0,8
+coffeeCat,tqs.coffeeCat.service,AuthService.new AuthenticationException() {...},0,7,0,0,0,1,0,1,0,1
+coffeeCat,tqs.coffeeCat.service,CustomUserDetailsService,22,0,2,0,7,0,3,0,2,0

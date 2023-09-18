@@ -1,0 +1,36 @@
+
+dtqs.coffeeCat.service.ProductService#getProductById(Ljava/lang/String;)Ltqs/coffeeCat/model/Product;‚
+x/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/service/ProductService.java ("1*‚
+1	 (¢
+Ÿ
+	 (0
+%0*tqs.coffeeCat.repository.ProductRepository"__id*[
+
+__unknown_file (?*=&
+$tqs.coffeeCat.service.ProductService"
+productRepository°­
+	 ('
+%1java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*N
+
+__unknown_file (2
+0
+%0*tqs.coffeeCat.repository.ProductRepository*4
+
+__unknown_file (
+
+idjava.lang.String2findById(Ljava/lang/Object;)éæ
+	 (4!
+%2tqs.coffeeCat.model.Product"?java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%1java.util.Optional*"
+
+__unknown_file (
+""2orElse(Ljava/lang/Object;)"/
+ (5#
+!
+%2tqs.coffeeCat.model.Product:"
+ ((
+idjava.lang.StringB(&
+$tqs.coffeeCat.service.ProductServiceH

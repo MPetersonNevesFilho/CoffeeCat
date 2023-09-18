@@ -1,0 +1,3 @@
+tqs.coffeeCat.service.PickupPointService#getPickupPoint(Ljava/lang/String;)Ltqs/coffeeCat/model/PickupPoint;
+==
+findByName tqs.coffeeCat.repository.PickupPointRepository#findByName(Ljava/lang/String;)Ltqs/coffeeCat/model/PickupPoint;

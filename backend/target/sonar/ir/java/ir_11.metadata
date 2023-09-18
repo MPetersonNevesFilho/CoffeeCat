@@ -1,0 +1,6 @@
+tqs.coffeeCat.model.User#toString()Ljava/lang/String;
+==
+getUsername tqs.coffeeCat.model.User#getUsername()Ljava/lang/String;
+getPassword tqs.coffeeCat.model.User#getPassword()Ljava/lang/String;
+getEmail tqs.coffeeCat.model.User#getEmail()Ljava/lang/String;
+getId tqs.coffeeCat.model.User#getId()Ljava/lang/String;

@@ -1,0 +1,6 @@
+tqs.coffeeCat.controller.StoreController#createPoint(Ltqs/coffeeCat/model/PickupPoint;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;
+==
+body org.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+addPickupPoint tqs.coffeeCat.service.PickupPointService#addPickupPoint(Ltqs/coffeeCat/model/PickupPoint;)Ltqs/coffeeCat/model/PickupPoint;

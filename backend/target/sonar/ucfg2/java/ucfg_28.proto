@@ -1,0 +1,27 @@
+
+_tqs.coffeeCat.service.ProductService#existsProductByName(Ljava/lang/String;)Ljava/lang/Boolean;‚
+x/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/service/ProductService.java (#"1*Œ
+1	 (¢
+Ÿ
+	 (0
+%0*tqs.coffeeCat.repository.ProductRepository"__id*[
+
+__unknown_file (?*=&
+$tqs.coffeeCat.service.ProductService"
+productRepository°­
+	 (-
+%1java.lang.Boolean"^tqs.coffeeCat.repository.ProductRepository#existsByName(Ljava/lang/String;)Ljava/lang/Boolean;*N
+
+__unknown_file (2
+0
+%0*tqs.coffeeCat.repository.ProductRepository*6
+
+__unknown_file (
+
+namejava.lang.String2 existsByName(Ljava/lang/String;)"%
+ (.
+
+%1java.lang.Boolean:$
+$ (/
+namejava.lang.StringB(&
+$tqs.coffeeCat.service.ProductServiceH

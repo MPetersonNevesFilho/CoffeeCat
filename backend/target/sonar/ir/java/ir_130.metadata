@@ -1,0 +1,7 @@
+tqs.coffeeCat.service.PickupPointService#addOrderToPickupPoint(Ljava/lang/String;Ltqs/coffeeCat/model/Order;)Ltqs/coffeeCat/model/PickupPoint;
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;
+add java.util.List#add(Ljava/lang/Object;)Z
+setOrders tqs.coffeeCat.model.PickupPoint#setOrders(Ljava/util/List;)V
+findByName tqs.coffeeCat.repository.PickupPointRepository#findByName(Ljava/lang/String;)Ltqs/coffeeCat/model/PickupPoint;
+getOrders tqs.coffeeCat.model.PickupPoint#getOrders()Ljava/util/List;

@@ -1,0 +1,199 @@
+
+{tqs.coffeeCat.controller.StoreController#addProduct(Ltqs/coffeeCat/model/Product;)Lorg/springframework/http/ResponseEntity;†
+|/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/controller/StoreController.java> >($"startingBlock*†
+2B
+ B(¹
+¶
+B
+ B()-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*I
+
+__unknown_file (-
++
+addedProducttqs.coffeeCat.model.Product";
+B B(*/
+-
+%2'org.springframework.http.ResponseEntity*“
+3? ?('
+š
+? ?('*
+%0$tqs.coffeeCat.service.ProductService"__id*\
+
+__unknown_file (@*>*
+(tqs.coffeeCat.controller.StoreController"
+productServiceØÕ
+? ?(;!
+%1tqs.coffeeCat.model.Product"ktqs.coffeeCat.service.ProductService#addProduct(Ltqs/coffeeCat/model/Product;)Ltqs/coffeeCat/model/Product;*H
+
+__unknown_file (,
+*
+%0$tqs.coffeeCat.service.ProductService*D
+
+__unknown_file ((
+&
+producttqs.coffeeCat.model.Product2)addProduct(Ltqs/coffeeCat/model/Product;)€
+~
+? ?(<+
+addedProducttqs.coffeeCat.model.Product"__id*?
+
+__unknown_file (#
+!
+%1tqs.coffeeCat.model.Product*
+2
+1*Ö
+startingBlock>$ >(B
+}
+
+__unknown_file (
+%6"__id*U
+
+__unknown_file (9*7
+&
+producttqs.coffeeCat.model.Product"
+descriptionv
+t
+
+__unknown_file (
+%7"__id*L
+
+__unknown_file (0*.
+&
+producttqs.coffeeCat.model.Product"
+id}
+{
+
+__unknown_file (
+%8"__id*S
+
+__unknown_file (7*5
+&
+producttqs.coffeeCat.model.Product"
+	image_urlx
+v
+
+__unknown_file (
+%9"__id*N
+
+__unknown_file (2*0
+&
+producttqs.coffeeCat.model.Product"
+name™
+–
+>% >(1
+%10"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%6x
+v
+>: >(A7
+&
+producttqs.coffeeCat.model.Product"
+description"__annotation*#
+
+__unknown_file (
+
+%10™
+–
+>% >(1
+%11"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%8v
+t
+>: >(A5
+&
+producttqs.coffeeCat.model.Product"
+	image_url"__annotation*#
+
+__unknown_file (
+
+%11™
+–
+>% >(1
+%12"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%7o
+m
+>: >(A.
+&
+producttqs.coffeeCat.model.Product"
+id"__annotation*#
+
+__unknown_file (
+
+%12™
+–
+>% >(1
+%13"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%9q
+o
+>: >(A0
+&
+producttqs.coffeeCat.model.Product"
+name"__annotation*#
+
+__unknown_file (
+
+%13*
+3*„
+1D
+ D(a
+_
+D  D(6)
+%3#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""ë
+è
+D
+ D(79
+%43org.springframework.http.ResponseEntity$BodyBuilder"Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*G
+
+__unknown_file (+
+)
+%3#org.springframework.http.HttpStatusæã
+D
+ D(^-
+%5'org.springframework.http.ResponseEntity"uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*W
+
+__unknown_file (;
+9
+%43org.springframework.http.ResponseEntity$BodyBuilder*>
+
+__unknown_file (" 
+Error: Product already exists!2body(Ljava/lang/Object;)";
+D D(_/
+-
+%5'org.springframework.http.ResponseEntity:2
+>% >(A&
+producttqs.coffeeCat.model.ProductB,*
+(tqs.coffeeCat.controller.StoreControllerH

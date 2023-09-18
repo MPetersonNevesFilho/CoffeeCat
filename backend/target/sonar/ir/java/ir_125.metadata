@@ -1,0 +1,3 @@
+tqs.coffeeCat.service.PickupPointService#existsByName(Ljava/lang/String;)Z
+==
+existsByName tqs.coffeeCat.repository.PickupPointRepository#existsByName(Ljava/lang/String;)Ljava/lang/Boolean;

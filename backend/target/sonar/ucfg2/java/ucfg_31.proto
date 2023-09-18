@@ -1,0 +1,21 @@
+
+=tqs.coffeeCat.service.ProductService#getAll()Ljava/util/List;Ç
+x/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/service/ProductService.java ("1*ù
+1	 (¢
+ü
+	 (0
+%0*tqs.coffeeCat.repository.ProductRepository"__id*[
+
+__unknown_file (?*=&
+$tqs.coffeeCat.service.ProductService"
+productRepositoryƒ¡
+	 ($
+%1java.util.List"Dtqs.coffeeCat.repository.ProductRepository#findAll()Ljava/util/List;*N
+
+__unknown_file (2
+0
+%0*tqs.coffeeCat.repository.ProductRepository2	findAll()""
+ (%
+
+%1java.util.ListB(&
+$tqs.coffeeCat.service.ProductServiceH

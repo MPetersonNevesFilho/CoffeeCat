@@ -1,0 +1,81 @@
+
+btqs.coffeeCat.controller.StoreController#getAllProducts()Lorg/springframework/http/ResponseEntity;†
+|/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/controller/StoreController.java3 3(("3*õ
+27
+ 7(¨
+¥
+7
+ 7(%-
+%3'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*8
+
+__unknown_file (
+
+productsjava.util.List";
+7 7(&/
+-
+%3'org.springframework.http.ResponseEntity*Ï
+34 4()
+š
+4 4()*
+%0$tqs.coffeeCat.service.ProductService"__id*\
+
+__unknown_file (@*>*
+(tqs.coffeeCat.controller.StoreController"
+productService¶³
+4 4(2
+%1java.util.List"=tqs.coffeeCat.service.ProductService#getAll()Ljava/util/List;*H
+
+__unknown_file (,
+*
+%0$tqs.coffeeCat.service.ProductService2getAll()b
+`
+4 4(3
+productsjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.List{y
+6 6(
+%2boolean"java.util.List#isEmpty()Z*8
+
+__unknown_file (
+
+productsjava.util.List2	isEmpty()*
+2
+1*ÿ
+19
+ 9(a
+_
+9  9(4)
+%4#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""ë
+è
+9
+ 9(59
+%53org.springframework.http.ResponseEntity$BodyBuilder"Žorg.springframework.http.ResponseEntity#status(Lorg/springframework/http/HttpStatusCode;)Lorg/springframework/http/ResponseEntity$BodyBuilder;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*G
+
+__unknown_file (+
+)
+%4#org.springframework.http.HttpStatusáÞ
+9
+ 9(W-
+%6'org.springframework.http.ResponseEntity"uorg.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*W
+
+__unknown_file (;
+9
+%53org.springframework.http.ResponseEntity$BodyBuilder*9
+
+__unknown_file (
+Error: No products found!2body(Ljava/lang/Object;)";
+9 9(X/
+-
+%6'org.springframework.http.ResponseEntityB,*
+(tqs.coffeeCat.controller.StoreControllerH

@@ -1,0 +1,27 @@
+
+\tqs.coffeeCat.service.UserService#save(Ltqs/coffeeCat/model/User;)Ltqs/coffeeCat/model/User;
+u/home/mpeterson/pessoal/projetos/tqs/CoffeeCat/backend/coffeeCat/src/main/java/tqs/coffeeCat/service/UserService.java ("1*
+1	 (™
+–
+	 (-
+%0'tqs.coffeeCat.repository.UserRepository"__id*U
+
+__unknown_file (9*7#
+!tqs.coffeeCat.service.UserService"
+userRepository³°
+	 ("
+%1tqs.coffeeCat.model.User"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*K
+
+__unknown_file (/
+-
+%0'tqs.coffeeCat.repository.UserRepository*>
+
+__unknown_file ("
+ 
+usertqs.coffeeCat.model.User2save(Ljava/lang/Object;)",
+ (# 
+
+%1tqs.coffeeCat.model.User:,
+ ( 
+usertqs.coffeeCat.model.UserB%#
+!tqs.coffeeCat.service.UserServiceH
