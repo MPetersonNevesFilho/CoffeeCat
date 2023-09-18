@@ -1,4 +1,4 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://vbmelox:admin@cluster0.rnukme9.mongodb.net/test?retryWrites=true&w=majority
+      uri: mongodb+srv://mpetersonnevesfilho:KXLdEyOhimEkSNbH@cluster0.8mncdec.mongodb.net/mydatabase?retryWrites=true&w=majority

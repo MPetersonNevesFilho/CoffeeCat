@@ -9,6 +9,8 @@ public class LoginRequest {
 	private String password;
 
 	public LoginRequest(String string, String string2) {
+		this.username = string;
+		this.password = string2;
 	}
 
 	public String getUsername() {
