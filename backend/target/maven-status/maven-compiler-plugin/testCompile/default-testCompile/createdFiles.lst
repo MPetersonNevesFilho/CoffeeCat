@@ -1,0 +1,11 @@
+tqs/coffeeCat/TestCoffeeCatApplication.class
+tqs/coffeeCat/AuthController_Tests.class
+test/java/tqs/coffeeCat/model/PickupPointTests.class
+tqs/coffeeCat/ProductService_Tests.class
+tqs/coffeeCat/StoreController_Tests.class
+tqs/coffeeCat/UserTests.class
+tqs/coffeeCat/PickupPointService_Tests.class
+tqs/coffeeCat/UserService_Tests.class
+tqs/coffeeCat/OrderService_Tests.class
+test/java/tqs/coffeeCat/model/ProductTests.class
+tqs/coffeeCat/AuthService_Tests.class

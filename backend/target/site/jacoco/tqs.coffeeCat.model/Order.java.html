@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Order.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">coffeeCat</a> &gt; <a href="index.source.html" class="el_package">tqs.coffeeCat.model</a> &gt; <span class="el_source">Order.java</span></div><h1>Order.java</h1><pre class="source lang-java linenums">package tqs.coffeeCat.model;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = &quot;orders&quot;)
+public class Order {
+
+    @Id
+    private String id;
+
+    private Date dateCreated;
+	private Date dateDelivery;
+	private List&lt;Product&gt; products;
+	private String status;
+	private String costumer;
+	private String pickupPoint;
+
+
+    // Constructors
+<span class="fc" id="L24">	public Order(Date dateCreated, Date dateDelivery, List&lt;Product&gt; products, String status, String costumer, String pickupPoint) {</span>
+<span class="fc" id="L25">		this.dateCreated = dateCreated;</span>
+<span class="fc" id="L26">		this.dateDelivery = dateDelivery;</span>
+<span class="fc" id="L27">		this.products = products;</span>
+<span class="fc" id="L28">		this.status = status;</span>
+<span class="fc" id="L29">		this.costumer = costumer;</span>
+<span class="fc" id="L30">		this.pickupPoint = pickupPoint;</span>
+<span class="fc" id="L31">	}</span>
+
+<span class="fc" id="L33">	public Order(Date dateDelivery, List&lt;Product&gt; products, String costumer, String pickupPoint) {</span>
+<span class="fc" id="L34">		this.dateDelivery = dateDelivery;</span>
+<span class="fc" id="L35">		this.products = products;</span>
+<span class="fc" id="L36">		this.costumer = costumer;</span>
+<span class="fc" id="L37">		this.pickupPoint = pickupPoint;</span>
+<span class="fc" id="L38">	}</span>
+
+        // Debug
+<span class="fc" id="L41">    public Order(String string, String string2, String string3, String name) {</span>
+<span class="fc" id="L42">	}</span>
+
+<span class="fc" id="L44">    public Order() {</span>
+<span class="fc" id="L45">    }</span>
+
+    // Getters
+	public String getId() {
+<span class="nc" id="L49">		return this.id;</span>
+	}
+
+    public Date getDateCreated() {
+<span class="fc" id="L53">        return this.dateCreated;</span>
+    }
+
+    public Date getDateDelivery() {
+<span class="nc" id="L57">        return this.dateDelivery;</span>
+    }
+
+	public List&lt;Product&gt; getProducts() {
+<span class="nc" id="L61">		return this.products;</span>
+	}
+
+	public String getStatus() {
+<span class="fc" id="L65">		return this.status;</span>
+	}
+
+    public String getCostumer() {
+<span class="fc" id="L69">		return this.costumer;</span>
+	}
+
+    public String getPickupPoint() {
+<span class="fc" id="L73">		return this.pickupPoint;</span>
+	}
+
+    // Setters
+    public void setId(String id) {
+<span class="nc" id="L78">		this.id = id;</span>
+<span class="nc" id="L79">	}</span>
+
+	public void setDateCreated(Date dateCreated) {
+<span class="fc" id="L82">		this.dateCreated = dateCreated;</span>
+<span class="fc" id="L83">	}</span>
+
+	public void setDateDelivery(Date dateDelivery) {
+<span class="nc" id="L86">		this.dateDelivery = dateDelivery;</span>
+<span class="nc" id="L87">	}</span>
+
+	public void setProducts(List&lt;Product&gt; products) {
+<span class="nc" id="L90">		this.products = products;</span>
+<span class="nc" id="L91">	}</span>
+
+	public void setStatus(String status) {
+<span class="fc" id="L94">		this.status = status;</span>
+<span class="fc" id="L95">	}</span>
+
+	public void setCostumer(String costumer) {
+<span class="nc" id="L98">		this.costumer = costumer;</span>
+<span class="nc" id="L99">	}</span>
+
+	public void setPickupPoint(String pickupPoint) {
+<span class="nc" id="L102">		this.pickupPoint = pickupPoint;</span>
+<span class="nc" id="L103">	}</span>
+
+    // toString
+	@Override
+	public String toString() {
+<span class="nc" id="L108">		return &quot;{&quot; +</span>
+<span class="nc" id="L109">				&quot; dateCreated='&quot; + getDateCreated() + &quot;'&quot; +	&quot;, dateDelivery='&quot; + getDateDelivery() + &quot;'&quot; +</span>
+<span class="nc" id="L110">				&quot;, products='&quot; + getProducts() + &quot;'&quot; + &quot;, status='&quot; + getStatus() + &quot;'&quot; +</span>
+<span class="nc" id="L111">				&quot;, costumer='&quot; + getCostumer() + &quot;'&quot; + &quot;, pickupPoint='&quot; + getPickupPoint() + &quot;'&quot; +</span>
+				&quot;}&quot;;
+	}
+
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
